@@ -46,6 +46,7 @@ header p {
 }
 
 main > section.poesia > p{
+    text-align: center;
     padding-top: 30px;
     padding: 20px;
     font-family: 'Architects Daughter', cursive;
@@ -55,17 +56,16 @@ main > section.poesia > p{
 }
 
 main div.parallax {
+    text-align: center;
     background-image: url(imagens/1.jpg);
-    min-height: 500px;
     box-shadow: inset 4px 5px 16px 2px rgba(0, 0, 0, 0.63);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 main > div.parallax > p {
-    margin: 10px;
+    margin: 25px;
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.664);
     padding: 20px;
@@ -77,9 +77,10 @@ main > div.parallax > p {
 }
 
 main div.parallax2 {
+    text-align: center;
     background-image: url(imagens/pages.jpg);
-    min-height: 500px;
     box-shadow: inset 4px 5px 16px 2px rgba(0, 0, 0, 0.63);
+    padding: 20px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
