@@ -17,12 +17,6 @@
     --cor5: #A8C0CE;
 }
 
-@media screen and (min-width: 1200px) {
-    body p {
-    font-size: 32px;
-    }
-}
-
 body {
     background-color: var(--cor5);
 }
@@ -55,7 +49,7 @@ main > section.poesia > p{
     padding-top: 30px;
     padding: 20px;
     font-family: 'Architects Daughter', cursive;
-    font-size: 3.7vw;
+    font-size: min(3.7vw, 30px);
     color: white;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.315);
 }
@@ -76,7 +70,7 @@ main > div.parallax > p {
     background-color: rgba(0, 0, 0, 0.664);
     padding: 20px;
     font-family: 'Architects Daughter', cursive;
-    font-size: 5vw;
+    font-size: min(3.7vw, 30px);
     color: white;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.315);
     border-radius: 10px;
@@ -98,7 +92,7 @@ main > div.parallax2 > p {
     background-color: rgba(0, 0, 0, 0.664);
     padding: 20px;
     font-family: 'Architects Daughter', cursive;
-    font-size: 5vw;
+    font-size: min(3.7vw, 30px);
     color: white;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.315);
     border-radius: 10px;
